@@ -1,0 +1,33 @@
+.filter-column{
+    display: none;
+}
+input:checked+span{
+    color: #bf40bf;
+}
+.card .card-horizontal .card-body p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-body{
+    min-width: 0 ;
+}
+time{
+    left: 32px !important;
+}
+@media (max-width:767px){
+    .card-top-image{
+        width:100%;
+    }
+}
+@media (min-width:767px) and (max-width:991px){
+    .channel-img{
+        display: block;
+        margin-top: 10px;
+        
+    }
+    .rtl .ml-3, [dir="rtl"] .ml-3 {
+        margin-left: 0 !important;
+        margin-right: 0rem !important;
+    }
+}

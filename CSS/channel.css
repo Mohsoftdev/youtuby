@@ -1,0 +1,12 @@
+@media (max-width:992px){
+    .nav-item.active .nav-link{
+        padding: 10px !important;
+    }
+}
+@media (max-width:550px){
+    
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+}
+}
